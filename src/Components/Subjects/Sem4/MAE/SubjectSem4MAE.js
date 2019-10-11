@@ -1,7 +1,7 @@
 import React from "react";
-import "./SubjectSem4CS.css";
+import "./SubjectSem4MAE.css";
 
-const SubjectSem4CS = prop => {
+const SubjectSem4MAE = prop => {
   return (
     <div className="cardlist">
       <div
@@ -17,4 +17,4 @@ const SubjectSem4CS = prop => {
   );
 };
 
-export default SubjectSem4CS;
+export default SubjectSem4MAE;

@@ -1,4 +1,4 @@
-export const SubjectProp4CS = [
+export const SubjectProp4MAE = [
   {
     subject: "Applied Mathematics IV",
     backgroundColor: "darkred"

@@ -17,6 +17,10 @@ import Subjects4ECE from "./Components/Subjects/Sem4/ECE/Subjects4ECE";
 import { SubjectProp4ECE } from "./Components/Subjects/Sem4/ECE/SubjectProp4ECE";
 import Subjects4EEE from "./Components/Subjects/Sem4/EEE/Subjects4EEE";
 import { SubjectProp4EEE } from "./Components/Subjects/Sem4/EEE/SubjectProp4EEE";
+import Subjects4IT from "./Components/Subjects/Sem4/IT/Subjects4IT";
+import { SubjectProp4IT } from "./Components/Subjects/Sem4/IT/SubjectProp4IT";
+import Subjects4MAE from "./Components/Subjects/Sem4/MAE/Subjects4MAE";
+import { SubjectProp4MAE } from "./Components/Subjects/Sem4/MAE/SubjectProp4MAE";
 
 import Branches from "./Components/Subjects/Sem3/Branches";
 import { BranchProp } from "./Components/Subjects/Sem3/BranchProps";
@@ -105,6 +109,28 @@ class App extends Component {
                 <div>
                   <div className="f1 white">Choose Your Subject</div>
                   <Subjects4EEE SubjectProp4EEE={SubjectProp4EEE} />
+                </div>
+              );
+            }}
+          />
+          <Route
+            path={["/subjectSem/4/it"]}
+            render={() => {
+              return (
+                <div>
+                  <div className="f1 white">Choose Your Subject</div>
+                  <Subjects4IT SubjectProp4IT={SubjectProp4IT} />
+                </div>
+              );
+            }}
+          />
+          <Route
+            path={["/subjectSem/4/mae"]}
+            render={() => {
+              return (
+                <div>
+                  <div className="f1 white">Choose Your Subject</div>
+                  <Subjects4MAE SubjectProp4MAE={SubjectProp4MAE} />
                 </div>
               );
             }}
