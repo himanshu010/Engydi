@@ -1,26 +1,26 @@
 export const SubjectProp4MAE = [
   {
-    subject: "Applied Mathematics IV",
+    subject: "Numerical Analysis and Statistical Techniques",
     backgroundColor: "darkred"
   },
   {
-    subject: "Computer Organization and Architecture",
+    subject: "Fluid Systems",
     backgroundColor: "darkgreen"
   },
   {
-    subject: "Theory of Computation",
+    subject: "Theory of Machines",
     backgroundColor: "darkblue"
   },
   {
-    subject: "Database Management Systems",
+    subject: "Manufacturing Machines",
     backgroundColor: "darkgoldenrod"
   },
   {
-    subject: "Object Oriented Programming",
+    subject: "Measurements and Instrumentation",
     backgroundColor: "darkgreen"
   },
   {
-    subject: "Communication Systems",
+    subject: "Switching Theory and Logic Design",
     backgroundColor: "deeppink"
   }
 ];

@@ -4,23 +4,23 @@ export const SubjectProp4ECE = [
     backgroundColor: "darkred"
   },
   {
-    subject: "Computer Organization and Architecture",
+    subject: "Analog Electronics II",
     backgroundColor: "darkgreen"
   },
   {
-    subject: "Theory of Computation",
+    subject: "Network Analysis and Synthesis",
     backgroundColor: "darkblue"
   },
   {
-    subject: "Database Management Systems",
+    subject: "Communication Systems",
     backgroundColor: "darkgoldenrod"
   },
   {
-    subject: "Object Oriented Programming",
+    subject: "Electromagnetic Field Theory",
     backgroundColor: "darkgreen"
   },
   {
-    subject: "Communication Systems",
+    subject: "Computer Organization and Architecture",
     backgroundColor: "deeppink"
   }
 ];

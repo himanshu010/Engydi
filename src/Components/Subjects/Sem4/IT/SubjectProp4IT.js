@@ -1,26 +1,26 @@
 export const SubjectProp4IT = [
   {
-    subject: "Applied Mathematics IV",
+    subject: "Electrical Machines II",
     backgroundColor: "darkred"
   },
   {
-    subject: "Computer Organization and Architecture",
+    subject: "Analog Electronics II",
     backgroundColor: "darkgreen"
   },
   {
-    subject: "Theory of Computation",
+    subject: "Power System I",
     backgroundColor: "darkblue"
   },
   {
-    subject: "Database Management Systems",
+    subject: "Electrical and Electronics Measuring Instruments",
     backgroundColor: "darkgoldenrod"
   },
   {
-    subject: "Object Oriented Programming",
+    subject: "Electromagnetic Field Theory",
     backgroundColor: "darkgreen"
   },
   {
-    subject: "Communication Systems",
+    subject: "Control Systems",
     backgroundColor: "deeppink"
   }
 ];
