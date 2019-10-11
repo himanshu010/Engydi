@@ -1,0 +1,39 @@
+.card-background {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 30px;
+  opacity: 0.5;
+  position: relative;
+}
+.cardlist {
+  display: inline-flex;
+}
+.heading {
+  min-width: 100%;
+  font-size: 40px;
+  color: white;
+}
+.number {
+  padding: -100px;
+  font-size: 70px;
+}
+.inner-card {
+  display: block;
+}
+.outerCard {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+.outerCard:hover {
+  opacity: 1;
+  background-color: palevioletred;
+}
